@@ -1,0 +1,17 @@
+Name: Sicong Zhao
+RCS: zhaos4
+
+References:
+www.stackoverflow.com
+www.w3schools.com
+www.api.jquery.com
+www.json.org/example
+Basic fade function learnt from this certain example : (http://jsfiddle.net/gpQYW/)
+
+Discussed with classmates and TA (Collaborators):
+TA: Ahmed Eleish
+Classmates: Luying Wen, Taoran Li(Tom), Peiliang Zou(Chelsey)
+
+Notes:
+Some of the user's profile image urls are unavailable at the moment. My codes caught these loading errors and changed them into a default twitter image loading from website.
+
