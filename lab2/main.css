@@ -1,0 +1,29 @@
+img {
+	height : 100px; 
+}
+
+body {
+	font-family : "Comic Sans MS";
+	text-align : center;
+	margin : 2px;
+}
+
+#city_name {
+	font-size : 38px;
+}
+
+#temp {
+	font-size : 28px;
+}
+
+#wind {
+	font-size : 18px;
+}
+
+#humidity {
+	font-size : 18px;
+}
+
+#description {
+	font-size : 15px;
+}
