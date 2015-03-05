@@ -1,0 +1,21 @@
+Lab 4 - Mobile App
+Name: Sicong Zhao
+RCS: zhaos4
+
+Notes:
+Used jQuery mobile to create a mobile version of Tweet ticker from Lab1, and read data from twitter API. 
+( The authentication part was learnt from https://www.youtube.com/watch?v=GQaPt-gQVRI, which downloaded the tweets_json.php file and tmhOAuth.php file, and adjusted them due to current situation.) 
+Finally, used CSS Media Queries to make the page responsive when the screen is less than 600px and 400px.
+
+Collabrators:
+TA: Ahmed Eleish; Classmates: Luying Wen, Taoran Li (Tom)
+
+References:
+www.stackoverflow.com
+https://dev.twitter.com/overview/documentation
+http://www.w3schools.com/jquerymobile/
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries
+https://www.youtube.com/watch?v=GQaPt-gQVRI
+https://gist.github.com/planetoftheweb/5914179
+https://github.com/themattharris/tmhOAuth
+http://curl.haxx.se/ca/cacert.pem
