@@ -1,0 +1,23 @@
+Lab 5 - node.js, angularJS and the Twitter API
+Name: Sicong Zhao
+RCS: zhaos4
+
+To run the tweet ticker,
+1. Installed node.js, express, twitter api(from https://www.npmjs.com/package/twitter)
+2. In command line go to directory then do : node server
+3. In browser go to : localhost:3000
+
+Notes:
+In the back-end, server.js file, it first used express to create a node server, then used twitter api to read twitter stream, finally used fs module to write the twitter steam into file tweets.json.
+In the front-end, index.html and main.js file used jquery mobile for a moblie version like we did in lab4. It also used angular framework to create a interface to input tweets counts and pull data. The main.css file used css media query as we did in lab4 to make the page responsive.
+
+Collabrators:
+TA: Ahmed Eleish; Classmates: Luying Wen, Taoran Li (Tom)
+
+References:
+http://www.stackoverflow.com
+http://www.w3schools.com
+http://expressjs.com
+https://www.npmjs.com/package/twitter
+https://nodejs.org/api/fs.html#fs_file_system
+https://www.safaribooksonline.com/library/view/angularjs-up-and/9781491901939/ch04.html
