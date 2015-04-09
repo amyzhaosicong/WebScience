@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab6</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+<script src="main.js"></script>
+</head>
+<body ng-app="MyApp">
+	<div data-role="page" id="pageone">
+	  <div data-role="header">
+	    <h1>Tweet Ticker</h1>
+	  </div>
+	  <div data-role="main" class="ui-content">
+		<div ng-controller = "MyController">
+		  	<div ng-show="hideByClick">
+		  		<p>Input the name of csv file:</p>
+		  		<input type="text" ng-model="filename">	
+		  		<input type="checkbox" ng-model="checkboxModel.showHeader" style="margin-left:170px; margin-top:0.5px">Show header in csv file
+		  	</br>
+	   			<button ng-click="submit()" ng-show="hideByClick" style="text-align:left">Get CSV file!</button>
+			</div>
+		  	<div ng-show="showByClick">Downloading {{filename}}.csv file</div>
+		</div>
+		<!-- ./ng-controller-->
+	</div>
+	<!-- ./ui-content -->
+	</div>
+<!-- pageone-->
+</body>
+</html>
