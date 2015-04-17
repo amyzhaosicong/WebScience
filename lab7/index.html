@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 7</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body ng-app="">
+	<div data-role="page" id="pageone">
+		<div data-role="header">
+			<h1>Tweet Ticker</h1>
+		</div>
+		<div data-role="main" class="ui-content">
+			<div ng-controller="MyController">
+				<button ng-click="buildMongo()" > Build MongoDB</button>
+				<button ng-click="readTweets()"> Read Tweets</button>
+				<input type="text" ng-model="JSONname" placeholder="Input JSON file name" style="text-align:center"></input>
+				<button ng-click="createJSON()"> Create JSON file </button>
+				<input type="text" ng-model="numTweets" placeholder="Input Numbur of Tweets" style="text-align:center"></input>
+				<button ng-click="readJSON()"> Read JSON file</button>
+				<input type="text" ng-model="CSVname" placeholder="Input CSV file name" style="text-align:center"></input>
+				<button ng-click="createCSV()"> Create CSV file </button>
+			</div>
+			<!-- ng-controller -->
+		</div>
+		<!-- ui-content -->
+	</div>
+	<!-- pageone-->
+</body>
+
