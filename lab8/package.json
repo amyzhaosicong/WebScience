@@ -1,0 +1,10 @@
+{
+  "name": "lab8-app",
+  "version": "0.0.1",
+  "description": "Web Science lab8",
+  "dependencies": {
+    "express": "^4.10.2",
+    "body-parser": "^1.12.3",
+    "sparql-client": "^0.2.0"
+  }
+}
