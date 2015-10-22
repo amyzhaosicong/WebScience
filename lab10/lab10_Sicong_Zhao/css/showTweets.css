@@ -1,0 +1,83 @@
+img {
+	width:50px;
+	height:50px;
+}
+
+font {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.tweet {
+	color:#4099FF;
+	background-color:white;
+	padding-top:2px;
+	position : absolute;
+	width:45% !important;
+	height:50px;
+	vertical-align:top;
+	word-wrap: break-word;
+	overflow:hidden;
+	left:10%;
+}
+
+.hashtag{
+	color:white;
+	background-color:#4099FF;
+	text-align:center;
+	position : absolute;
+	width:30% !important;
+	height:50px;
+	right:10%;
+}
+
+#t1, #h1{
+	top:12%;
+}
+
+#t2, #h2{
+	top:24%;
+}
+
+#t3, #h3{
+	top:36%;
+}
+
+#t4, #h4{
+	top:48%;
+}
+
+#t5, #h5{
+	top:60%;
+}
+
+/*using css media query to make the page responsive when less then 600px and 400px*/
+@media all and (max-width: 600px) {
+  .tweet {
+		position:absolute;
+		width:80%;
+  }
+	
+    .hashtag {
+			position:absolute;
+			width:40%;
+			margin-top:70%;
+			left:10%;
+    }
+}
+
+@media all and (max-width: 400px) {
+  .tweet {
+		position:absolute;
+		width:80%;
+		margin-top:5%;
+  }
+	
+    .hashtag {
+			position:absolute;
+			width:40%;
+			margin-top:80%;
+			left:10%;
+    }
+}
